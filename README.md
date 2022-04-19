@@ -19,10 +19,11 @@ Our project consist of three teams
 
 # Features in our v0.1 beta release
 1. Email and phone risk or threat analysis
-2. phishing detection
+2. phishing detection 
 3. Spamming detection 
 4. slack Integration 
-5. basic API Documentation 
+5. Low level Encryption(This Feature will be using Industry Standard Encryption such as AES 256)
+6. basic API Documentation 
 
 # Frontend Team
 Frontend Team will be building Frontend components of this project such as Dashboard, Analytics page etc
