@@ -6,9 +6,10 @@ This project will be using various AI and Rule Engine algorithm to detect variou
 After starting my infosec journey,I understood that majority of vulnerability can be easily mitigated in source code while building the app itself, This Project will be employ APIs which work on runtime to detect and block threat actors
 
 # 🔧 Tech Stack used
-ReactJS
-Django
-MySQL
+1. ReactJS
+2. Django
+3. MySQL
+4. Tensorflow 
 
 # Our Team
 Our project consist of three teams
