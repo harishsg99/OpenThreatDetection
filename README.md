@@ -17,10 +17,15 @@ Our project consist of three teams
 2. Machine learning 
 3. Security Engineers and Security Researchers
 
+# Features in our v0.1 beta release
+1. Email and phone risk or threat analysis
+2. phishing detection
+3. Spamming detection 
+4. slack Integration 
+5. basic API Documentation 
 
 # Frontend Team
 Frontend Team will be building Frontend components of this project such as Dashboard, Analytics page etc
-
 
 # ML Team
 Machine learning team will be building ML algorithms based on various datasets to detect those threats (Primarily we will be using Classifier)
@@ -28,3 +33,4 @@ Machine learning team will be building ML algorithms based on various datasets t
 # Security Engineer Team
 
 Security Engineer will be researching on various publicly known web security threats and collecting payloads to build a massive dataset for ML team 
+
