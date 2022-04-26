@@ -74,3 +74,19 @@ class EmailView(APIView):
 
         return Response(z, status=HTTP_200_OK)
         return Response({"Received incorrect data"}, status=HTTP_400_BAD_REQUEST)
+    
+ class PhishingView(APIView):
+    permission_classes = (AllowAny, )
+
+    def post(self, request, *args, **kwargs):
+        text = request.data.get('url')
+        sb = SafeBrowsing(conf['SafeBrowsing']['key'])
+        res = sb.lookup_url("text")
+        z = {
+            "ismalicious": res["malicious"],
+            } 
+        if(res["malicious"] == True):
+            Add //slack or telegram or /teams
+
+        return Response(z, status=HTTP_200_OK)
+        return Response({"Received incorrect data"}, status=HTTP_400_BAD_REQUEST)
