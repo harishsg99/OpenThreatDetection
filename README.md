@@ -31,8 +31,9 @@ Our project consist of three teams
 2. phishing detection (implemented and but not tested)
 3. Spamming detection (implemented and but not tested)
 4. slack Integration (implemented and but not tested)
-5. Low level Encryption(This Feature will be using Industry Standard Encryption such as AES 256)
-6. basic API Documentation 
+5. O365 Outlook API (implemented and but not tested)
+6. Low level Encryption(This Feature will be using Industry Standard Encryption such as AES 256)
+7. basic API Documentation 
 
 # Third Party libraries used(will updated when we add new library)
 1. Safe browsing API
@@ -42,6 +43,7 @@ Our project consist of three teams
 5. is_disposable library for checking whether email is disposable or not
 6. Slack API for sending emmergency alert(InCase of high security alert)
 7. MailGun API for sending reports to the team
+8. O365 Outlook API 
 
 # Frontend Team
 Frontend Team will be building Frontend components of this project such as Dashboard, Analytics page etc
