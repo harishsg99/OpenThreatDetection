@@ -5,7 +5,8 @@ This project will be using various AI and Rule Engine algorithm to detect variou
 # 📌 Mission
 After starting my infosec journey,I understood that majority of vulnerability can be easily mitigated in source code while building the app itself, This Project will be employ APIs which work on runtime to detect and block threat actors.
 
-We are Threat detection and Threat deterance Engine for every company in the world! 
+We want to be threat detection and Threat deterance Engine for every company in the world! 
+Thanks for you support!
 
 # 🔧 Tech Stack used
 1. ReactJS
