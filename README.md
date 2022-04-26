@@ -27,7 +27,7 @@ Our project consist of three teams
 1. Email and phone risk or threat analysis
 2. phishing detection (implemented and but not tested)
 3. Spamming detection (implemented and but not tested)
-4. slack Integration 
+4. slack Integration (implemented and but not tested)
 5. Low level Encryption(This Feature will be using Industry Standard Encryption such as AES 256)
 6. basic API Documentation 
 
