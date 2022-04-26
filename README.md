@@ -50,3 +50,8 @@ Machine learning team will be building ML algorithms based on various datasets t
 
 Security Engineer will be researching on various publicly known web security threats and collecting payloads to build a massive dataset for ML team 
 
+# License
+OpenThreatDetection is fair-code distributed under the Sustainable Use License.
+
+Additional information about license can be found in the FAQ.
+
