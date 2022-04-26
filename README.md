@@ -34,6 +34,8 @@ Our project consist of three teams
 5. O365 Outlook API (implemented and but not tested)
 6. Low level Encryption(This Feature will be using Industry Standard Encryption such as AES 256)
 7. basic API Documentation 
+8. Bare minimum UI(Dashboard , Login Screen) (implemented and but not tested)
+9. Docker support
 
 # Third Party libraries used(will updated when we add new library)
 1. Safe browsing API
