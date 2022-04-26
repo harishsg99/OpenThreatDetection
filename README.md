@@ -31,6 +31,15 @@ Our project consist of three teams
 5. Low level Encryption(This Feature will be using Industry Standard Encryption such as AES 256)
 6. basic API Documentation 
 
+# Third Party libraries used(will updated when we add new library)
+1. Safe browsing API
+2. Postmark Spam API
+3. Google phonenumbers API
+4. is_deliverable library for checking whether email is exist or not
+5. is_disposable library for checking whether email is disposable or not
+6. Slack API for sending emmergency alert(InCase of high security alert)
+7. MailGun API for sending reports to the team
+
 # Frontend Team
 Frontend Team will be building Frontend components of this project such as Dashboard, Analytics page etc
 
