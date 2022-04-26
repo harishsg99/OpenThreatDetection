@@ -52,3 +52,25 @@ class EmailView(APIView):
         }
         return Response(z, status=HTTP_200_OK)
         return Response({"Received incorrect data"}, status=HTTP_400_BAD_REQUEST)
+    
+ class SpamView(APIView):
+    permission_classes = (AllowAny, )
+
+    def post(self, request, *args, **kwargs):
+        text = request.data.get('spam')
+        result = spamcheck.check(text, report=True)
+        score = result['score']
+        report = result['report']
+        if(score > 5):
+            z = {
+            "isSpam": "True",
+            "spam_score": score
+            } 
+        elif(score < 5):
+            z = {
+            "isSpam": "False",
+            "spam_score": score
+            } 
+
+        return Response(z, status=HTTP_200_OK)
+        return Response({"Received incorrect data"}, status=HTTP_400_BAD_REQUEST)
