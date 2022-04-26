@@ -27,7 +27,7 @@ Our project consist of three teams
 3. Security Engineers and Security Researchers
 
 # Features in our v0.1 beta release
-1. Email and phone risk or threat analysis
+1. Email(is_valid and is_disposable)(implemented and but not tested)
 2. phishing detection (implemented and but not tested)
 3. Spamming detection (implemented and but not tested)
 4. slack Integration (implemented and but not tested)
