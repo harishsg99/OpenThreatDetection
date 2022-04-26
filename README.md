@@ -11,6 +11,9 @@ After starting my infosec journey,I understood that majority of vulnerability ca
 3. MySQL
 4. Tensorflow 
 
+# 🔧 DetectionEngine Architecture
+![alt text](https://github.com/harishsg99/OpenThreatDetection/blob/main/images/Screenshot%202022-04-26%20at%209.09.38%20AM.png?raw=true)
+
 # Our Team
 Our project consist of three teams
 1. Frontend Developer
