@@ -4,6 +4,7 @@ from phonenumbers import timezone
 from verify_email import verify_email
 from validate_email import validate_email
 from links_verification import verify
+from slack import WebClient
 import is_disposable_email
 from pysafebrowsing import SafeBrowsing //phishing url detection 
 import spamcheck //spam detection 
@@ -12,6 +13,9 @@ from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.status import HTTP_200_OK, HTTP_400_BAD_REQUEST
 from rest_framework.views import APIView
+
+slack_bot_token = ""
+slack_signing_secret = ""
 
 class EmailView(APIView):
     permission_classes = (AllowAny, )
@@ -86,7 +90,7 @@ class EmailView(APIView):
             "ismalicious": res["malicious"],
             } 
         if(res["malicious"] == True):
-            Add //slack or telegram or /teams
+            slack_client.chat_postMessage(response_type="in_channel",channel="",text="Alert! Phishing link detected!")
 
         return Response(z, status=HTTP_200_OK)
         return Response({"Received incorrect data"}, status=HTTP_400_BAD_REQUEST)
