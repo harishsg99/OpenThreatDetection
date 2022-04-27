@@ -29,13 +29,6 @@ const Shell = props => (
                 Change Password
               </Menu.Item>
               <Menu.Item
-                active={props.location.pathname === "/account/billing"}
-                onClick={() => props.history.push("/account/billing")}
-                name="change-email"
-              >
-                Billing
-              </Menu.Item>
-              <Menu.Item
                 active={props.location.pathname === "/account/api-key"}
                 onClick={() => props.history.push("/account/api-key")}
                 name="change-email"
